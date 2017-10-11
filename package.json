@@ -1,7 +1,7 @@
 {
   "name": "websockets-chat-starter",
   "version": "1.0.0",
-  "engine": {
+  "engines": {
     "node": "8.4.0",
     "npm": "5.3.0"
   },
@@ -9,8 +9,7 @@
   "main": "./src/server.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "pretest": "eslint ./src --fix",
-    "test": "echo \"Completed Tests\""
+    "test": "echo \"No Tests\""
   },
   "repository": {
     "type": "git",
